@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <title>Lunchlandet</title>
+        <meta charset="UTF-8">
+		<link rel="stylesheet" href="layout.css">
+	</head>
+	<body>
+		<h1>Lunchlandet</h1>
+		<form method="post" action="boking.html">
+		 <h3>Namn:</h3> <input type="text" name="Namn">  
+		 <h3>Hur många är ni tillsammans?</h3>
+			<input type="radio" name="kund" value="1"> 1<br>
+			<input type="radio" name="kund" value="2"> 2<br>
+			<input type="radio" name="kund" value="3"> 3<br>
+			<input type="radio" name="kund" value="4"> 4<br>
+			<input type="radio" name="kund" value="5"> 5<br>
+			<input type="radio" name="kund" value="6"> 6<br>
+			<input type="radio" name="kund" value="extra"> fler:<input type="text" name="antal"><br>
+			<h3>Vill ni ha en barnstol vid bordet?</h3>
+			<input type="radio" name="barnstol value="barnstol"> ja <br>
+			<input type="radio" name="barnstol value="ingen barnstol"> nej <br>
+			<h3>Datum och klockslag</h3>
+			Klocka: <select type="dropdown" size="1" name="clock_hour">
+				<option>11</option>
+				<option>12</option>
+				<option>13</option>
+				<option>14</option>
+				<option>15</option>
+				<option>16</option>
+				<option>17</option>
+				<option>18</option>
+				<option>19</option>
+				<option>20</option>
+			</select><select type="dropdown" size="1" name="clock_10_min">
+				<option>00</option>
+				<option>10</option>
+				<option>20</option>
+				<option>30</option>
+				<option>40</option>
+				<option>50</option>
+			</select><br>
+			Datum (dag/månad):<select type="dropdown" size="1" name="dag">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+				<option>11</option>
+				<option>12</option>
+				<option>13</option>
+				<option>14</option>
+				<option>15</option>
+				<option>16</option>
+				<option>17</option>
+				<option>18</option>
+				<option>19</option>
+				<option>20</option>
+				<option>21</option>
+				<option>22</option>
+				<option>23</option>
+				<option>24</option>
+				<option>25</option>
+				<option>26</option>
+				<option>27</option>
+				<option>28</option>
+				<option>29</option>
+				<option>30</option>
+				<option>31</option>
+			</select>/<select type="dropdown" size="1" name="manad">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+				<option>11</option>
+				<option>12</option>
+			</select>
+			<h3>Allergier/dieter?</h3>
+			<input type="checkbox" name="gluten" value="ja"> Gluten <br>
+			<input type="checkbox" name="laktos" value="ja"> Laktos <br>
+			<input type="checkbox" name="nötter" value="ja"> Nötter <br>
+			<input type="checkbox" name="Vegetarian" value="ja"> Vegetarian <br>
+			<input type="checkbox" name="vego" value="ja"> Vegan <br>
+			<input type="checkbox" name="ovrigt" value="ja"> övrgit <input type="text" name="övrgit">
+			<h3>Vad skulle ni vilja ha för mat?</h3>
+			<a href="www.lunchlandet.ax/meny">Här är vår meny</a> 
+			<p>För gruppmenyer kontakta vår epost: Lunchlandet@gmail.com</p>
+			gäst 1: <select type="dropdown" size="1" name="gast1">
+				<option selected>Inget</option>
+				<option>Stekt kyckling</option>
+				<option>Fish&chips </option>
+				<option>Kycklingsoppa</option>
+				<option>Stark tomatsoppa</option>
+				<option>Pumpasoppa</option>
+				<option>Köttfärslimpa</option>
+				<option>Pesto-pasta</option>
+			</select><br>
+			gäst 2: <select type="dropdown" size="1" name="gast2">
+				<option selected>Inget</option>
+				<option>Stekt kyckling</option>
+				<option>Fish&chips </option>
+				<option>Kycklingsoppa</option>
+				<option>Stark tomatsoppa</option>
+				<option>Pumpasoppa</option>
+				<option>Köttfärslimpa</option>
+				<option>Pesto-pasta</option>
+			</select><br>
+			gäst 3: <select type="dropdown" size="1" name="gast3">
+				<option selected>Inget</option>
+				<option>Stekt kyckling</option>
+				<option>Fish&chips </option>
+				<option>Kycklingsoppa</option>
+				<option>Stark tomatsoppa</option>
+				<option>Pumpasoppa</option>
+				<option>Köttfärslimpa</option>
+				<option>Pesto-pasta</option>
+			</select><br>
+			gäst 4: <select type="dropdown" size="1" name="gast4">
+				<option selected>Inget</option>
+				<option>Stekt kyckling</option>
+				<option>Fish&chips </option>
+				<option>Kycklingsoppa</option>
+				<option>Stark tomatsoppa</option>
+				<option>Pumpasoppa</option>
+				<option>Köttfärslimpa</option>
+				<option>Pesto-pasta</option>
+			</select><br>
+			gäst 5: <select type="dropdown" size="1" name="gast5">
+				<option selected>Inget</option>
+				<option>Stekt kyckling</option>
+				<option>Fish&chips </option>
+				<option>Kycklingsoppa</option>
+				<option>Stark tomatsoppa</option>
+				<option>Pumpasoppa</option>
+				<option>Köttfärslimpa</option>
+				<option>Pesto-pasta</option>
+			</select><br>
+			gäst 6: <select type="dropdown" size="1" name="gast6">
+				<option selected>Inget</option>
+				<option>Stekt kyckling</option>
+				<option>Fish&chips </option>
+				<option>Kycklingsoppa</option>
+				<option>Stark tomatsoppa</option>
+				<option>Pumpasoppa</option>
+				<option>Köttfärslimpa</option>
+				<option>Pesto-pasta</option>
+			</select>
+			<h3>Andra önskningar? (Firar ni födelsedag? Eller behöver ni hjälp?)</h3>
+			<textarea name="text" rows="7" cols="50"></textarea><br>
+			<input type="submit" name="boka" value="Boka!">
+		</form>
+	</body>
+</html>

@@ -1,0 +1,42 @@
+html {
+	color: white;
+	background-color: black;
+}
+
+#info {
+	width: 353px;
+	height: 1200px;
+	background-color: DarkSlateGrey;
+	border: 1px solid gold;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	color: Gold;
+	text-align: center;
+}
+
+h2 {
+	color: gold;
+	text-align: center;
+}
+
+.infotext {
+	text-align: center;
+}
+
+.infolist {
+	margin: auto;
+    width: 33%;
+}
+
+a {
+	color:gold;
+}
+
+#pil {
+	right: 0;
+	bottom: 0;
+	position: fixed;
+}

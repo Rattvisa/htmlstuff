@@ -1,0 +1,4 @@
+<form method="post/get" action="tack.html">
+	<input type=" text,radio,checkbox,password,submit,reset," name="
+" value=" "
+</form>

@@ -1,0 +1,25 @@
+html {
+	font:verdana;
+}
+
+h1 {
+	color:darkblue;
+	font-size:24px;
+	font-variant: small-caps;
+	text-align:center;
+}
+
+h2 {
+	color:green;
+	text-decoration: underline red wavy;
+	font-size:20px;
+	text-align:center;
+}
+
+p {
+	color:lightblue;
+	font-size:11px;
+	text-align:justify;
+	text-indent:2em;
+}
+

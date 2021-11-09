@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="sv">
+	<head>
+		<title>mitt formulär</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<form method="post" action="tack.html">
+		Namn <input type="text" name="namn"><br>
+		kön: <br>
+			<input type="radio" name="kon" value="M"> Man<br>
+			<input type="radio" name="kon" value="K"> Kvinna<br>
+		favoriträtt:<br>
+			<input type="checkbox" name="rabarberpaj" value="ja">rabarberpaj<br>
+			<input type="checkbox" name="potatis" value="ja">potatis<br>
+			<input type="checkbox" name="pasta" value="ja">pasta<br>
+			<input type="checkbox" name="alla" value="ja">alla<br>
+			<input type="checkbox" name="arsenik" value="ja" checked>arsenik<br>
+			
+			<input type="submit" name="skicka" value="skicka!"><br>
+			<input type="reset" name="skicka_inte" value="skicka inte!"><br>
+			<input type="password" name="losenord" value="gissa!"><br>
+			<select name="dropdown" size="1">
+				<option> matematik </option>
+				<option> svenska </option>
+				<option> engelska </option>
+				<option> tortyr </option>
+				<option selected> musik </option>
+			</select> är mitt favorit ämne<br>
+			<select name="dropdown" size="4" multiple>
+				<option> matematik </option>
+				<option> svenska </option>
+				<option> engelska </option>
+				<option> tortyr </option>
+				<option selected> musik </option>
+			</select> är mitt favorit ämne<br>
+			<textarea name="text" rows="4" cols="40"> lång text</textarea><br>
+		</form>
+	</body>
+</html>

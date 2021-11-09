@@ -1,0 +1,40 @@
+html {
+	color: white;
+	background-color: black;
+}
+
+h1 {
+	color: Gold;
+	text-align: center;
+}
+
+h2 {
+	color: Gold;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	color: gold;
+}
+
+ul {
+	text-align: center-left;
+}
+
+#innehall {
+	width: 200px;
+	height: 400px;
+	background-color: DarkSlateGrey;
+	border: 1px solid gold;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+	color:gold;
+}
+
+img {
+	background-color: white;
+}
